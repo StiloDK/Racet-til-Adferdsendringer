@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://c7n62l8fdi7cp" path="res://Player.tscn" id="1_gfjgm"]
 [ext_resource type="Texture2D" uid="uid://d0q2g65ahgok" path="res://assets/sprites/world_tileset.png" id="2_3vi7k"]
+[ext_resource type="PackedScene" uid="uid://cyv2k5j3twu8y" path="res://coin.tscn" id="3_3h1ab"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3h1ab"]
 texture = ExtResource("2_3vi7k")
@@ -186,5 +187,23 @@ position_smoothing_enabled = true
 [node name="Layer0" type="TileMapLayer" parent="TileMap" unique_id=1375474649]
 use_parent_material = true
 position = Vector2(0, 114)
-tile_map_data = PackedByteArray("AAAIAP//AAAAAAAAAAAJAP//AAAAAAAAAAAHAP//AAAAAAAAAAAGAP//AAAAAAAAAAAFAP//AAAAAAAAAAAEAP//AAAAAAAAAAADAP//AAAAAAAAAAACAP//AAAAAAAAAAABAP//AAAAAAAAAAAAAP//AAAAAAAAAAD/////AAAAAAAAAAD+////AAAAAAAAAAD9////AAAAAAAAAAD8////AAAAAAAAAAD7////AAAAAAAAAAD6////AAAAAAAAAAD5////AAAAAAAAAAD4////AAAAAAAAAAD3////AAAAAAAAAAD2////AAAAAAAAAAA=")
+tile_map_data = PackedByteArray("AAAIAP//AAAAAAAAAAAJAP//AAAAAAAAAAAHAP//AAAAAAAAAAAGAP//AAAAAAAAAAAFAP//AAAAAAAAAAAEAP//AAAAAAAAAAADAP//AAAAAAAAAAACAP//AAAAAAAAAAABAP//AAAAAAAAAAAAAP//AAAAAAAAAAD/////AAAAAAAAAAD+////AAAAAAAAAAD9////AAAAAAAAAAD8////AAAAAAAAAAD7////AAAAAAAAAAD6////AAAAAAAAAAD5////AAAAAAAAAAD4////AAAAAAAAAAD3////AAAAAAAAAAD2////AAAAAAAAAAAKAP//AAAAAAAAAAALAP//AAAAAAAAAAAMAP//AAAAAAAAAAANAP//AAAAAAAAAAAOAP//AAAAAAAAAAAPAP//AAAAAAAAAAAQAP//AAAAAAAAAAARAP//AAAAAAAAAAASAP//AAAAAAAAAAATAP//AAAAAAAAAAAUAP//AAAAAAAAAAAVAP//AAAAAAAAAAAWAP//AAAAAAAAAAAXAP//AAAAAAAAAAAYAP//AAAAAAAAAAAZAP//AAAAAAAAAAAaAP//AAAAAAAAAAAbAP//AAAAAAAAAAAcAP//AAAAAAAAAAAdAP//AAAAAAAAAAAeAP//AAAAAAAAAAAfAP//AAAAAAAAAAAgAP//AAAAAAAAAAAhAP//AAAAAAAAAAAiAP//AAAAAAAAAAAjAP//AAAAAAAAAAAkAP//AAAAAAAAAAAlAP//AAAAAAAAAAA=")
 tile_set = SubResource("TileSet_dx3ca")
+
+[node name="Coin" parent="." unique_id=2085021057 instance=ExtResource("3_3h1ab")]
+position = Vector2(103, 51)
+
+[node name="Coin2" parent="." unique_id=464140275 instance=ExtResource("3_3h1ab")]
+position = Vector2(190, 51)
+
+[node name="Coin3" parent="." unique_id=2085457368 instance=ExtResource("3_3h1ab")]
+position = Vector2(262, 51)
+
+[node name="Coin4" parent="." unique_id=1455487330 instance=ExtResource("3_3h1ab")]
+position = Vector2(212, 48)
+
+[node name="Coin5" parent="." unique_id=754461945 instance=ExtResource("3_3h1ab")]
+position = Vector2(141, 53)
+
+[node name="Coin6" parent="." unique_id=441903353 instance=ExtResource("3_3h1ab")]
+position = Vector2(189, 75)
