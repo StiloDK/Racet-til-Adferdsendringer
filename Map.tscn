@@ -220,3 +220,6 @@ position = Vector2(141, 53)
 
 [node name="Coin6" parent="Node" unique_id=441903353 instance=ExtResource("3_3h1ab")]
 position = Vector2(189, 75)
+
+[node name="Coin7" parent="Node" unique_id=1374937595 instance=ExtResource("3_3h1ab")]
+position = Vector2(287, 48)
