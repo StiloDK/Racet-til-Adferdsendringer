@@ -240,4 +240,4 @@ position = Vector2(365, -39)
 position = Vector2(366, -23)
 
 [node name="Object" parent="." unique_id=517776373 instance=ExtResource("5_v6avs")]
-position = Vector2(149, -67)
+position = Vector2(150, -67)
